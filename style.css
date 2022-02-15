@@ -8,7 +8,7 @@
     width: 100vw;
 }
 #button{
-    position: fixed;
+    position: absolute;
     z-index: 2;
     bottom: 8%;
 }
