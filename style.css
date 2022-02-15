@@ -2,30 +2,28 @@
 * {
     font-family: "Cedarville Cursive", cursive;
 }
-.center{
+.center {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100vw;
 }
-#button{
-    position: absolute;
-    z-index: 2;
-    bottom: 8%;
-}
-#meme-img{
+
+#imageBody {
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     overflow-y: auto;
 }
-body{
+body {
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-footer{
-    position: absolute;
+.bottom-bar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
